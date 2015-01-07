@@ -5,6 +5,9 @@ using NUnit.Framework;
 
 namespace NSubstituteExample.Tests
 {
+    /// <summary>
+    /// see: http://nsubstitute.github.io/help/throwing-exceptions/
+    /// </summary>
     public class ExceptionTests
     {
         private ICalculator calculator;

@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Class1.cs" />
+    <Compile Include="Classes\LowFuelWarningEventArgs.cs" />
     <Compile Include="Classes\OnceOffCommandRunner.cs" />
     <Compile Include="Classes\CommandWatcher.cs" />
     <Compile Include="Classes\CommandRepeater.cs" />
@@ -56,11 +57,21 @@
     <Compile Include="Interfaces\IFoo.cs" />
     <Compile Include="Interfaces\ICommand.cs" />
     <Compile Include="Interfaces\IFormatter.cs" />
+    <Compile Include="Interfaces\IEngine.cs" />
+    <Compile Include="Interfaces\ILookup.cs" />
+    <Compile Include="Interfaces\IContext.cs" />
+    <Compile Include="Interfaces\IIdentity.cs" />
+    <Compile Include="Interfaces\IRequest.cs" />
+    <Compile Include="Interfaces\INumberParserFactory.cs" />
+    <Compile Include="Interfaces\INumberParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\ArgumentMatchingTests.cs" />
     <Compile Include="Tests\CalculatorTests.cs" />
     <Compile Include="Tests\CallbackTests.cs" />
     <Compile Include="Tests\CreatingSubstituteTests.cs" />
+    <Compile Include="Tests\OutAndRefArgumentTests.cs" />
+    <Compile Include="Tests\RecursiveTests.cs" />
+    <Compile Include="Tests\EventTests.cs" />
     <Compile Include="Tests\ExceptionTests.cs" />
     <Compile Include="Tests\ReceivedTests.cs" />
     <Compile Include="Tests\ReturnTests.cs" />
