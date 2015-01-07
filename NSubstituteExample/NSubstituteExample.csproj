@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Classes\Class1.cs" />
+    <Compile Include="Classes\CommandRepeater.cs" />
     <Compile Include="Classes\SomethingThatNeedsACommand.cs" />
     <Compile Include="Interfaces\ICalculator.cs" />
     <Compile Include="Interfaces\IFoo.cs" />
