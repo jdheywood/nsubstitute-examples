@@ -1,6 +1,6 @@
 # README #
 
-This is a C# Class Library project that contains example code from the NSubstitute tutorials from github
+This is a C# Class Library project that contains example code from the NSubstitute tutorials from github: http://nsubstitute.github.io/
 
 I worked through these to get used to NSubstitute having previously used Moq
 
