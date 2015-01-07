@@ -1,0 +1,9 @@
+c:\users\james\documents\visual studio 2013\Projects\NSubstituteExample\NSubstituteExample\bin\Debug\NSubstituteExample.dll
+c:\users\james\documents\visual studio 2013\Projects\NSubstituteExample\NSubstituteExample\bin\Debug\NSubstituteExample.pdb
+c:\users\james\documents\visual studio 2013\Projects\NSubstituteExample\NSubstituteExample\bin\Debug\NSubstitute.dll
+c:\users\james\documents\visual studio 2013\Projects\NSubstituteExample\NSubstituteExample\bin\Debug\nunit.framework.dll
+c:\users\james\documents\visual studio 2013\Projects\NSubstituteExample\NSubstituteExample\bin\Debug\NSubstitute.xml
+c:\users\james\documents\visual studio 2013\Projects\NSubstituteExample\NSubstituteExample\bin\Debug\nunit.framework.xml
+c:\users\james\documents\visual studio 2013\Projects\NSubstituteExample\NSubstituteExample\obj\Debug\NSubstituteExample.csprojResolveAssemblyReference.cache
+c:\users\james\documents\visual studio 2013\Projects\NSubstituteExample\NSubstituteExample\obj\Debug\NSubstituteExample.dll
+c:\users\james\documents\visual studio 2013\Projects\NSubstituteExample\NSubstituteExample\obj\Debug\NSubstituteExample.pdb
