@@ -158,6 +158,7 @@ namespace NSubstituteExample.Tests
             calculator = null;
             dictionary = null;
             watcher = null;
+            runner = null;
         }
     }
 }

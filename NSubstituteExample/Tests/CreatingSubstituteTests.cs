@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Windows.Input;
 using NSubstitute;
 using NSubstituteExample.Classes;
 using NSubstituteExample.Interfaces;
