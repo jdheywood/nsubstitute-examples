@@ -61,6 +61,7 @@
     <Compile Include="Tests\CalculatorTests.cs" />
     <Compile Include="Tests\CallbackTests.cs" />
     <Compile Include="Tests\CreatingSubstituteTests.cs" />
+    <Compile Include="Tests\ExceptionTests.cs" />
     <Compile Include="Tests\ReceivedTests.cs" />
     <Compile Include="Tests\ReturnTests.cs" />
   </ItemGroup>
