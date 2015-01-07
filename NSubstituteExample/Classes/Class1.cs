@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 
 namespace NSubstituteExample.Classes
 {
@@ -23,7 +24,7 @@ namespace NSubstituteExample.Classes
                 case 2:
                     return "Case 2";
                 default:
-                    return String.Format("Case {0}", input.ToString());
+                    return String.Format("Case {0}", input.ToString(CultureInfo.InvariantCulture));
             }
         }
 
