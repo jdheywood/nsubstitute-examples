@@ -5,6 +5,7 @@ namespace NSubstituteExample.Classes
     public class Class1 : IDisposable
     {
         public int Counter { get; set; }
+
         public string Message { get; set; }
 
         public Class1(int counter, string message)

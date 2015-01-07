@@ -16,7 +16,10 @@ namespace NSubstituteExample.Classes
 
         public void Execute()
         {
-            for (var i = 0; i < numberOfTimesToCall; i++) command.Execute();
+            for (var i = 0; i < numberOfTimesToCall; i++)
+            {
+                command.Execute();
+            }
         }
     }
 }

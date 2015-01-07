@@ -5,6 +5,15 @@ using NUnit.Framework;
 
 namespace NSubstituteExample.Tests
 {
+    /// <summary>
+    /// see:
+    /// http://nsubstitute.github.io/help/set-return-value/
+    /// http://nsubstitute.github.io/help/return-for-args/
+    /// http://nsubstitute.github.io/help/return-for-any-args/
+    /// http://nsubstitute.github.io/help/return-from-function/
+    /// http://nsubstitute.github.io/help/multiple-returns/
+    /// http://nsubstitute.github.io/help/replacing-return-values/
+    /// </summary>
     public class ReturnTests
     {
         private ICalculator calculator;
@@ -102,10 +111,12 @@ namespace NSubstituteExample.Tests
             Assert.AreEqual("BIN", calculator.Mode);
 
             // as above, but with func in return sequence so we can do something with this, or use a callback 
+            var result = String.Empty;
             calculator.Mode.Returns(x => "DEC", x => "HEX", x => { throw new Exception(); });
             Assert.AreEqual("DEC", calculator.Mode);
             Assert.AreEqual("HEX", calculator.Mode);
-            Assert.Throws<Exception>(() => { var result = calculator.Mode; });
+            Assert.Throws<Exception>(() => { result = calculator.Mode; });
+            Assert.IsInstanceOf(typeof(String), result);
         }
 
         [Test]
